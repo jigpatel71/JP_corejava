@@ -1,0 +1,10 @@
+Steps performed by database on the incoming query:
+1. Parse the incoming SQL query
+2. Compile the SQL query
+3. Plan/optimize the data acquisition path
+4. Execute the optimized query / acquire and return data
+
+Statement will go through all the above steps everytime.
+Prepared Statement pre-executes steps (1) - (3) in the execution process above and only performs the 4th step.
+
+
