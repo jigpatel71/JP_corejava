@@ -2,7 +2,7 @@ package com.test.annotations;
 
 import java.lang.annotation.*;
 import java.lang.reflect.*;
-
+// for Jenkins
 @Retention(RetentionPolicy.RUNTIME)
 @interface MyAnnotation
 {
